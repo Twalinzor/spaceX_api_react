@@ -9,7 +9,6 @@ root.render(
   <React.StrictMode>
     <ChakraProvider>
       <BrowserRouter basename={window.location.pathname || ''}>
-        <Route exact path="/" component={Index} />
         <App />
       </BrowserRouter>
     </ChakraProvider>
