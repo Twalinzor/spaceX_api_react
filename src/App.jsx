@@ -12,7 +12,7 @@ export function App() {
     <>
       <Image m={4} src={logo} width={300} />
       <Routes>
-        <Route exact path="/" element={<LaunchList />} />
+        <Route path="/" element={<LaunchList />} />
         <Route path="launch/:launchId" element={<LaunchDetails />} />
         <Route path="rockets/:rocketId" element={<RocketDetails />} />
       </Routes>
